@@ -1,5 +1,5 @@
 matplotlib==3.4.2
-numpy==1.21.0
+numpy==1.23.1
 pandas==1.4.3
 plotly==5.1.0
 protobuf==3.14.0
