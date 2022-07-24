@@ -17,7 +17,7 @@ st.title("Subreddit Threads Dashboard")
 @st.cache(suppress_st_warning=True, allow_output_mutation=True)
 def get_data_dataframe():
     df = pd.read_csv(
-        '/Users/dmr/Projects/streamlit_dashboard/d4nielmeyer-deploy-a-streamlit-dashboard-lp/tagged_threads.csv'
+        './tagged_threads.csv'
     )
     df = df.sort_values(by=['score'], ascending=False)
     return df
